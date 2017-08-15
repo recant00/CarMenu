@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52A5EE61ECFF44900912790 /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52A5EE41ECFF44900912790 /* IntroductionViewController.m */; };
+		E52A5EE71ECFF44900912790 /* IntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52A5EE51ECFF44900912790 /* IntroductionViewController.xib */; };
+		E54A40C61ECFE1E3001D60B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E54A40C51ECFE1E3001D60B6 /* main.m */; };
+		E54A40C91ECFE1E3001D60B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E54A40C81ECFE1E3001D60B6 /* AppDelegate.m */; };
+		E54A40D11ECFE1E3001D60B6 /* DajiCarMenu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54A40D01ECFE1E3001D60B6 /* DajiCarMenu.xcassets */; };
+		E54A40D41ECFE1E3001D60B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54A40D21ECFE1E3001D60B6 /* LaunchScreen.storyboard */; };
+		E57730851ED552AF00E66491 /* Strings.strings in Resources */ = {isa = PBXBuildFile; fileRef = E57730871ED552AF00E66491 /* Strings.strings */; };
+		E581D7C71EE8F6870017AB12 /* CustomerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D7C61EE8F6870017AB12 /* CustomerInfoViewController.m */; };
+		E581D7CA1EE8FB790017AB12 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E581D7C91EE8FB790017AB12 /* libsqlite3.tbd */; };
+		E581D7CD1EE8FBAE0017AB12 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D7CC1EE8FBAE0017AB12 /* DataManager.m */; };
+		E581D7EA1EE91AD60017AB12 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D7E01EE91AD60017AB12 /* FMDatabase.m */; };
+		E581D7EB1EE91AD60017AB12 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D7E21EE91AD60017AB12 /* FMDatabaseAdditions.m */; };
+		E581D7EC1EE91AD60017AB12 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D7E41EE91AD60017AB12 /* FMDatabasePool.m */; };
+		E581D7ED1EE91AD60017AB12 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D7E61EE91AD60017AB12 /* FMDatabaseQueue.m */; };
+		E581D7EE1EE91AD60017AB12 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E581D7E91EE91AD60017AB12 /* FMResultSet.m */; };
+		E5DA03EB1ED2F4A5000AF0E9 /* AccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DA03E91ED2F4A5000AF0E9 /* AccessoriesViewController.m */; };
+		E5F83FC11EFB9AA90012DDE0 /* CustomerData.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F83FC01EFB9AA90012DDE0 /* CustomerData.m */; };
+		E5F83FC41EFB9AC90012DDE0 /* OrderInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F83FC31EFB9AC90012DDE0 /* OrderInfoData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E52A5EE31ECFF44900912790 /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionViewController.h; sourceTree = "<group>"; };
+		E52A5EE41ECFF44900912790 /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
+		E52A5EE51ECFF44900912790 /* IntroductionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroductionViewController.xib; sourceTree = "<group>"; };
+		E54A40C11ECFE1E3001D60B6 /* DajiCarMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DajiCarMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54A40C51ECFE1E3001D60B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E54A40C71ECFE1E3001D60B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E54A40C81ECFE1E3001D60B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E54A40D01ECFE1E3001D60B6 /* DajiCarMenu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DajiCarMenu.xcassets; sourceTree = "<group>"; };
+		E54A40D31ECFE1E3001D60B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E54A40D51ECFE1E3001D60B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57730861ED552AF00E66491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Strings.strings; sourceTree = "<group>"; };
+		E57730881ED552C300E66491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Strings.strings; sourceTree = "<group>"; };
+		E581D7C51EE8F6870017AB12 /* CustomerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerInfoViewController.h; sourceTree = "<group>"; };
+		E581D7C61EE8F6870017AB12 /* CustomerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerInfoViewController.m; sourceTree = "<group>"; };
+		E581D7C91EE8FB790017AB12 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E581D7CB1EE8FBAE0017AB12 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		E581D7CC1EE8FBAE0017AB12 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		E581D7DF1EE91AD60017AB12 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		E581D7E01EE91AD60017AB12 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		E581D7E11EE91AD60017AB12 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E581D7E21EE91AD60017AB12 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E581D7E31EE91AD60017AB12 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = FMDB/FMDatabasePool.h; sourceTree = "<group>"; };
+		E581D7E41EE91AD60017AB12 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = FMDB/FMDatabasePool.m; sourceTree = "<group>"; };
+		E581D7E51EE91AD60017AB12 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = FMDB/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E581D7E61EE91AD60017AB12 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = FMDB/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E581D7E71EE91AD60017AB12 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = FMDB/FMDB.h; sourceTree = "<group>"; };
+		E581D7E81EE91AD60017AB12 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		E581D7E91EE91AD60017AB12 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		E5DA03E81ED2F4A5000AF0E9 /* AccessoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoriesViewController.h; sourceTree = "<group>"; };
+		E5DA03E91ED2F4A5000AF0E9 /* AccessoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoriesViewController.m; sourceTree = "<group>"; };
+		E5F83FBF1EFB9AA90012DDE0 /* CustomerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerData.h; sourceTree = "<group>"; };
+		E5F83FC01EFB9AA90012DDE0 /* CustomerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerData.m; sourceTree = "<group>"; };
+		E5F83FC21EFB9AC90012DDE0 /* OrderInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderInfoData.h; sourceTree = "<group>"; };
+		E5F83FC31EFB9AC90012DDE0 /* OrderInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderInfoData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E54A40BE1ECFE1E3001D60B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E581D7CA1EE8FB790017AB12 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E54A40B81ECFE1E3001D60B6 = {
+			isa = PBXGroup;
+			children = (
+				E54A40C31ECFE1E3001D60B6 /* DajiCarMenu */,
+				E54A40C21ECFE1E3001D60B6 /* Products */,
+				E581D7C81EE8FB790017AB12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E54A40C21ECFE1E3001D60B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E54A40C11ECFE1E3001D60B6 /* DajiCarMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E54A40C31ECFE1E3001D60B6 /* DajiCarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E581D7CE1EE919E10017AB12 /* FMDB */,
+				E5F83FBF1EFB9AA90012DDE0 /* CustomerData.h */,
+				E5F83FC01EFB9AA90012DDE0 /* CustomerData.m */,
+				E5F83FC21EFB9AC90012DDE0 /* OrderInfoData.h */,
+				E5F83FC31EFB9AC90012DDE0 /* OrderInfoData.m */,
+				E54A40C71ECFE1E3001D60B6 /* AppDelegate.h */,
+				E54A40C81ECFE1E3001D60B6 /* AppDelegate.m */,
+				E581D7C51EE8F6870017AB12 /* CustomerInfoViewController.h */,
+				E581D7C61EE8F6870017AB12 /* CustomerInfoViewController.m */,
+				E52A5EE31ECFF44900912790 /* IntroductionViewController.h */,
+				E52A5EE41ECFF44900912790 /* IntroductionViewController.m */,
+				E52A5EE51ECFF44900912790 /* IntroductionViewController.xib */,
+				E5DA03E81ED2F4A5000AF0E9 /* AccessoriesViewController.h */,
+				E5DA03E91ED2F4A5000AF0E9 /* AccessoriesViewController.m */,
+				E54A40D01ECFE1E3001D60B6 /* DajiCarMenu.xcassets */,
+				E54A40D21ECFE1E3001D60B6 /* LaunchScreen.storyboard */,
+				E54A40D51ECFE1E3001D60B6 /* Info.plist */,
+				E57730871ED552AF00E66491 /* Strings.strings */,
+				E54A40C41ECFE1E3001D60B6 /* Supporting Files */,
+				E581D7CB1EE8FBAE0017AB12 /* DataManager.h */,
+				E581D7CC1EE8FBAE0017AB12 /* DataManager.m */,
+			);
+			path = DajiCarMenu;
+			sourceTree = "<group>";
+		};
+		E54A40C41ECFE1E3001D60B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E54A40C51ECFE1E3001D60B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E581D7C81EE8FB790017AB12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E581D7C91EE8FB790017AB12 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E581D7CE1EE919E10017AB12 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				E581D7DF1EE91AD60017AB12 /* FMDatabase.h */,
+				E581D7E01EE91AD60017AB12 /* FMDatabase.m */,
+				E581D7E11EE91AD60017AB12 /* FMDatabaseAdditions.h */,
+				E581D7E21EE91AD60017AB12 /* FMDatabaseAdditions.m */,
+				E581D7E31EE91AD60017AB12 /* FMDatabasePool.h */,
+				E581D7E41EE91AD60017AB12 /* FMDatabasePool.m */,
+				E581D7E51EE91AD60017AB12 /* FMDatabaseQueue.h */,
+				E581D7E61EE91AD60017AB12 /* FMDatabaseQueue.m */,
+				E581D7E71EE91AD60017AB12 /* FMDB.h */,
+				E581D7E81EE91AD60017AB12 /* FMResultSet.h */,
+				E581D7E91EE91AD60017AB12 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E54A40C01ECFE1E3001D60B6 /* DajiCarMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54A40D81ECFE1E3001D60B6 /* Build configuration list for PBXNativeTarget "DajiCarMenu" */;
+			buildPhases = (
+				E54A40BD1ECFE1E3001D60B6 /* Sources */,
+				E54A40BE1ECFE1E3001D60B6 /* Frameworks */,
+				E54A40BF1ECFE1E3001D60B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DajiCarMenu;
+			productName = DajiCarMenu;
+			productReference = E54A40C11ECFE1E3001D60B6 /* DajiCarMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E54A40B91ECFE1E3001D60B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rean Yang";
+				TargetAttributes = {
+					E54A40C01ECFE1E3001D60B6 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CHX656NT89;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E54A40BC1ECFE1E3001D60B6 /* Build configuration list for PBXProject "DajiCarMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E54A40B81ECFE1E3001D60B6;
+			productRefGroup = E54A40C21ECFE1E3001D60B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E54A40C01ECFE1E3001D60B6 /* DajiCarMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E54A40BF1ECFE1E3001D60B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54A40D41ECFE1E3001D60B6 /* LaunchScreen.storyboard in Resources */,
+				E54A40D11ECFE1E3001D60B6 /* DajiCarMenu.xcassets in Resources */,
+				E57730851ED552AF00E66491 /* Strings.strings in Resources */,
+				E52A5EE71ECFF44900912790 /* IntroductionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E54A40BD1ECFE1E3001D60B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54A40C91ECFE1E3001D60B6 /* AppDelegate.m in Sources */,
+				E581D7CD1EE8FBAE0017AB12 /* DataManager.m in Sources */,
+				E5DA03EB1ED2F4A5000AF0E9 /* AccessoriesViewController.m in Sources */,
+				E581D7EA1EE91AD60017AB12 /* FMDatabase.m in Sources */,
+				E5F83FC41EFB9AC90012DDE0 /* OrderInfoData.m in Sources */,
+				E581D7EC1EE91AD60017AB12 /* FMDatabasePool.m in Sources */,
+				E5F83FC11EFB9AA90012DDE0 /* CustomerData.m in Sources */,
+				E581D7ED1EE91AD60017AB12 /* FMDatabaseQueue.m in Sources */,
+				E54A40C61ECFE1E3001D60B6 /* main.m in Sources */,
+				E581D7C71EE8F6870017AB12 /* CustomerInfoViewController.m in Sources */,
+				E581D7EE1EE91AD60017AB12 /* FMResultSet.m in Sources */,
+				E52A5EE61ECFF44900912790 /* IntroductionViewController.m in Sources */,
+				E581D7EB1EE91AD60017AB12 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E54A40D21ECFE1E3001D60B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E54A40D31ECFE1E3001D60B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E57730871ED552AF00E66491 /* Strings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57730861ED552AF00E66491 /* Base */,
+				E57730881ED552C300E66491 /* en */,
+			);
+			name = Strings.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E54A40D61ECFE1E3001D60B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E54A40D71ECFE1E3001D60B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E54A40D91ECFE1E3001D60B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				DEVELOPMENT_TEAM = CHX656NT89;
+				INFOPLIST_FILE = DajiCarMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CarMenu.DajiCarMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E54A40DA1ECFE1E3001D60B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				DEVELOPMENT_TEAM = CHX656NT89;
+				INFOPLIST_FILE = DajiCarMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CarMenu.DajiCarMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E54A40BC1ECFE1E3001D60B6 /* Build configuration list for PBXProject "DajiCarMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54A40D61ECFE1E3001D60B6 /* Debug */,
+				E54A40D71ECFE1E3001D60B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E54A40D81ECFE1E3001D60B6 /* Build configuration list for PBXNativeTarget "DajiCarMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54A40D91ECFE1E3001D60B6 /* Debug */,
+				E54A40DA1ECFE1E3001D60B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E54A40B91ECFE1E3001D60B6 /* Project object */;
+}

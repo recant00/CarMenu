@@ -1,0 +1,22 @@
+/* 
+  Strings.strings
+  DajiCarMenu
+
+  Created by Rean Yang on 2017/5/24.
+  Copyright © 2017年 Rean Yang. All rights reserved.
+*/
+
+//Items
+"Seat"      = "Seat";
+"TV"        = "TV";
+"Leather"   = "Leather";
+"Decorate"  = "Decorate";
+"Electronic Circumference" = "Electronic Circumference";
+"Painted" = "Painted";
+"Glass" = "Glass";
+"CarLogo" = "CarLogo";
+"Decoration" = "Decoration";
+"Safety" = "Safety";
+
+//Brand name
+"Seoul" = "Seoul";
